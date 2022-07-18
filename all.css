@@ -1,3 +1,90 @@
-h1{
-    color:red;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*star*/
+body{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: 'roboto';
+    font-weight: 200;
+}
+.banner{
+    height: calc(100vh);
+    background: url(/week2Pic/banner.png) center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    max-width: 304px;
+    margin: 0 auto;
+    color: white;
+    font-style: italic;
+}
+.header h3{
+    font-size: 24px;
+    line-height: 1.333;
+}
+.header h1{
+    font-size: 80px;
+    line-height: 1.325;
+    font-weight: 900;
+}
+.header h2{
+    width: 283px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+.pic{
+    display: flex;
+    margin-top: 40px;
+}
+.pic li{
+    margin-right: 16px;
 }
