@@ -46,16 +46,32 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*間距*/
+.mb-1{
+    margin-bottom: 4px;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+.mb-7{
+    margin-bottom: 28px;
+}
+.mb-14{
+    margin-bottom: 56px;
+}
 /*star*/
 body{
     font-size: 24px;
     line-height: 1.5;
     font-family: 'roboto';
     font-weight: 200;
+    font-style: italic;
+}
+img{
+    vertical-align: middle;
 }
 .banner{
     height: calc(100vh);
-    height: 958px;
     background: url(week2Pic/banner.png) center center;
     background-size: cover;
     display: flex;
@@ -66,11 +82,10 @@ body{
     max-width: 304px;
     margin: 0 auto;
     color: white;
-    font-style: italic;
 }
 .header h3{
     font-size: 24px;
-    line-height: 1.333;
+    line-height: 32px;
 }
 .header h1{
     font-size: 80px;
@@ -88,4 +103,33 @@ body{
 }
 .pic li{
     margin-right: 16px;
+}
+.about{
+    text-align: center;
+}
+.about h2{
+    font-size: 64px;
+    line-height: 1.3125;
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+.about img{
+    margin-bottom: 20px;
+}
+.about-word li{
+    line-height: 32px;
+}
+.about li:nth-child(3){
+    line-height: 1.5;
+}
+.border{
+    width: 384px;
+    margin: 23px auto 27px;
+    border-bottom: 1px solid #000;
+}
+.about li h3{
+    line-height: 32px;
+}
+.about li{
+    list-style: disc #891818 !important;
 }
